@@ -1,0 +1,215 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 50px 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+header:hover {
+    background-color: #3e8e41;
+    transform: scale(1.05);
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+/* Objective Section */
+#objective {
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+#objective:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#objective h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+/* Education Section */
+#education {
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#education:hover {
+    transform: scale(1.02);
+    background-color: #f5f5f5;
+}
+
+#education h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+#education ul {
+    list-style: none;
+}
+
+#education li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    transition: transform 0.3s ease;
+}
+
+#projects:hover {
+    transform: scale(1.02);
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+.project {
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.project p {
+    font-size: 1.1rem;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.project p:hover {
+    color: #000;
+}
+
+/* Experience Section */
+#experience {
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+#experience h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+#experience ul {
+    list-style: none;
+}
+
+#experience li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+    color: #4CAF50;
+    transform: scale(1.1);
+}
+
+.social a {
+    font-size: 1.2rem;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    #objective, #education, #projects, #experience {
+        padding: 20px;
+    }
+
+    .project p {
+        font-size: 1rem;
+    }
+}
+
